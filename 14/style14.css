@@ -1,0 +1,15 @@
+div {
+    font-size: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.one {
+    font-family: 'Open Sans', sans-serif;    
+    
+}
+.two {
+    font-family: 'Cairo', sans-serif;
+}
+.three {
+    font-family: 'Jomhuria', cursive;
+}

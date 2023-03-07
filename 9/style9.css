@@ -1,0 +1,11 @@
+div {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 75px;
+    margin: 40px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 0px  red, 
+    4px 4px 0px rgb(0, 140, 255),
+    6px 6px 0px purple;
+    
+}

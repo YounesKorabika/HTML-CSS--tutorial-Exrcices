@@ -1,0 +1,16 @@
+div {
+    background-color: #ddd;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+div::first-letter {
+    background-color: red;
+    padding: 10px;
+    color: white;
+    margin-left: -35px;
+    margin-right: 10px;
+}

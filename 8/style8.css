@@ -1,0 +1,16 @@
+div {
+    background-color: rgb(137, 34, 54);
+    color:white;
+    text-transform: capitalize;
+    font-family: serif;
+    padding: 15px;
+    margin: 15px 0px;
+    width: fit-content;
+    max-width: 400px;
+    font-size: 20px;
+    max-height:70px;
+    overflow: hidden;
+}
+span {
+    background-color: rgb(38, 123, 197);
+}

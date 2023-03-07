@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: deeppink;
+}
+div {
+    width: 400px;
+    background-color: red;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.two {
+    visibility: hidden;
+}
+.back {
+    background-color: #EEE;
+    width: 96%;
+    height: 100%;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.box1 {
+    background-color: rgba(215, 60, 91, 0.97);
+    width: 10px;
+    height: 80px;
+    display: inline-block;
+    margin-bottom: -30px;
+}
+p {
+    display: inline-block;
+    font-size: 30px;
+}
+.back2 {
+    background-color: #EEE;
+    width: 96%;    
+    padding: 10px;
+    margin: 100px 0;
+    padding-left: 20px;
+}
+.box2 {
+    background-color: green;
+    width: 10px;
+    height: 80px;
+    display: inline-block;
+    margin-bottom: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+p {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.one {
+    text-transform: uppercase;
+}
+.two {
+    text-transform: capitalize;
+}
+.three {
+    text-transform: lowercase;
+}

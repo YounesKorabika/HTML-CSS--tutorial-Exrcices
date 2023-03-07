@@ -1,0 +1,24 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-image: url(../2/css-assignment-5-8.png);
+}
+.assign-4-shape-1 {
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.assign-4-shape-2 {
+    background-repeat: repeat-y;
+    background-size: 80%;
+    background-position: right;
+}
+.assign-4-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 80%;
+}
+.assign-4-shape-4 {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+}

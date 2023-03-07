@@ -1,0 +1,123 @@
+/*
+shadow . text-shadow: H-shadow | V-shadow | oppacity | color
+box-shadow : H-shadow | V-shadow | opacity | Spread | color | inset 
+*/
+body {
+    margin: auto;
+}
+header {
+    background-color: black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+    float: left;
+    color: white;
+    position: relative;
+    left: 5px;
+    padding: 5px 10px ;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+header nav {
+    float: right;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 16px);
+}
+header nav a {
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.search-bar {
+    position: absolute;
+    left: 30%;
+    top: 33%;
+    width: 200px;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline: none;
+    border: 2px solid black;
+}
+.search-bar:focus {
+    background-color: wihte;
+    border: 2px solid blue;
+}
+.search-bar:valid {
+    border: 2px solid green;
+}
+nav a:hover {
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+}
+header h1:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.clear {
+    clear: both;
+}
+main h2 {
+    font-family: cursive;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px red;
+}
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #ddd;
+    float: left;
+    margin-left: 30px;
+    border-radius: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px black inset, 0px 0px 5px 0px black ;
+    cursor: pointer;
+}
+.card:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+    transform: scale(1.1);
+    rotate: scale(45);
+    box-shadow: 15px 15px 10px 2px;
+    color: rgb(156, 71, 19);
+    text-shadow: 2px 2px 5px red;
+    font-family: fantasy;
+    
+}
+.card .css:hover{
+    color:aliceblue;
+}
+.card ul {
+    list-style: square;
+    list-style-position: inside;
+    position: relative;
+    right: 10px;
+}
+.card ul li {
+    margin-bottom: 10px;
+}
+.enroll {
+    background-color: rgb(136, 182, 36);
+    
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.enroll:hover {
+    background-color: rgb(214, 255, 127);
+    cursor: pointer;
+}

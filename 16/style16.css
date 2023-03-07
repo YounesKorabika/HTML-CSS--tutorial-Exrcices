@@ -1,0 +1,40 @@
+.parent {
+    width: 1000px;
+    background-color: #eee;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.parent .yes {
+    background-color: rgb(191, 190, 190);
+    padding: 20px 0px;
+}
+.full {
+    margin: 0px 15px; 
+    text-transform: capitalize; 
+}
+.one-three {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: calc((100% - 60px)/3);
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.one-two {
+    width: calc((100% - 45px)/2);
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+}
+.one-four {
+    margin: 15px 0px 15px 15px ;
+    width: calc((100% - 75px)/4);
+    float: left;
+}
+.parent .zero {
+    padding-top: 15px;
+}
+

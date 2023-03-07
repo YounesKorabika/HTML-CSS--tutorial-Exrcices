@@ -1,0 +1,15 @@
+div {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: blueviolet;
+    background-color: ##8a2be2;
+    background-color: rgb(138 43 226 / 1);
+    background-color: hsla(271, 76%, 53%, 1);
+}
+.special {
+    background-color: rgb(138 43 226 / 50%);
+}
+.two {
+    background-color: rgb(138 43 226 / 10%);
+}

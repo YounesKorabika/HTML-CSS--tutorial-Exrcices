@@ -1,0 +1,74 @@
+div {
+    width: 400px;
+    margin: auto;
+    background-color: #eee;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(228, 49, 4) rgb(10, 122, 226);
+    padding: 25px;
+    margin-top: 40px;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-left {
+    color: white;
+    background-color: rgb(24, 137, 218);
+    border-right: 3px solid rgb(228, 49, 4) ;
+    padding: 10px 20px;
+    position: absolute;
+    top: -24px;
+    left: -25px;
+    font-size: 20px;
+}
+.bottom-left {
+    background-color: rgb(24, 137, 218);
+    border-right: 3px solid rgb(228, 49, 4);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -24px;
+    left: -25px;
+    font-size: 20px;
+    color: white;
+
+}
+.top-right {
+    background-color: rgb(24, 137, 218);
+    border-left: 3px solid rgb(228, 49, 4);
+    padding: 10px 20px;
+    position: absolute;
+    top: -24px;
+    right: -25px;
+    font-size: 20px;
+    color: white;
+}
+.bottom-right {
+    background-color: rgb(24, 137, 218);
+    border-left: 3px solid rgb(228, 49, 4);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -24px;
+    right: -25px;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+p {
+    background-color: #eee;
+    width: 600px;
+    padding: 15px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    border-left: 5px solid crimson;
+} 
+p::before {
+    content: attr(data-person);
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    position: absolute;
+    left: -110px;
+    top: calc(50% - 19.75px);
+}
+p::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 15px solid;
+    position: absolute;
+    left: -30px;
+    top: calc(50% - 15px);
+    border-color: transparent crimson transparent transparent;
+}

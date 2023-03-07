@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent {
+    width: 400px;
+}
+ul .child{
+    background-color: #eee;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+.one {
+    list-style-type: decimal;
+    list-style-position: outside; 
+}
+.one li {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.two {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+.two li {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+.three {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+.three li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
